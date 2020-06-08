@@ -95,6 +95,7 @@ section .heading h2 {
   border-radius: 30px;
   margin: 0 auto;
   width: 80%;
+  border: 10px solid #0F2242 !important;
 }
 
 .navbar .navbar-nav {
@@ -485,7 +486,10 @@ section .heading h2 {
 
 /* FOOTER */
 footer {
-  background: #1498DF;
+  /*background: #00bfff;*/
+  background: #ff00cc; 
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 5px solid #0f2242;
 }
 
